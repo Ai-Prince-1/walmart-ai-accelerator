@@ -1,0 +1,5 @@
+Input Sample ID,Clause Type Context,Token Gate Status,Prompt Tokens,Completion Tokens,Actual Cost (Groq Blended Rate),System Verdict & Action
+S1-001,Core SLA (97.5% OTIF Target),TRIGGERED,114,42,$0.00000906,CRITICAL_FLAG (Penalty below floor)
+S1-002,Governing Law Boilerplate,SKIPPED,0,0,$0.00000000,SKIPPED ($0 cost safeguard)
+S1-003,Defensive Sourcing (Chargeback),TRIGGERED,108,38,$0.00000844,CRITICAL_FLAG (1.5% rate caught)
+S1-004,Force Majeure Disclaimer,SKIPPED,0,0,$0.00000000,SKIPPED ($0 cost safeguard)
