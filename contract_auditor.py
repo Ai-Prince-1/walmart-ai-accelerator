@@ -114,9 +114,8 @@ if __name__ == "__main__":
     
     # Test Case 1: Complex retail clause avoiding the word 'penalty'
     walmart_clause = """
-    Sourcing partners must execute deliveries at a confirmed 98% On-Time In-Full (OTIF) rate. 
-    Deficiencies spanning consecutive quarters will yield a capital chargeback extraction of 1.5% 
-    against gross invoice valuations.
+    MASTER SERVICES AGREEMENT - SECTION 4.2: PERFORMANCE AND REMEDIES
+The Sourcing Partner shall maintain operational excellence throughout the duration of this Agreement. Fulfillment execution shall be tracked via automated shipping logs, and the Sourcing Partner is contractually obligated to maintain a minimum 98.0% On-Time In-Full (OTIF) distribution threshold. Performance evaluations will be compiled systematically by Walmart's logistics platform. In the event that fulfillment metrics fall below this 98.0% standard for two consecutive quarters, the system will systematically flag the account. To remediate this supply deficiency, Walmart reserves the explicit right to assess a capital chargeback deduction equivalent to 1.5% against the total gross invoice valuation of all non-compliant shipments processed during the violation windows. This financial remedy will be executed as a direct offset against outstanding accounts payable balances.
     """
     
     print("\n--- Executing Stage 1 Extraction ---")
