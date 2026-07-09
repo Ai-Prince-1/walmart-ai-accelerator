@@ -13,3 +13,19 @@ Welcome to my hands-on AI Product Management and AI Enablement portfolio. This r
 
 ---
 *Operating Constraints: Built using 100% low-cost/free-tier execution layers, zero heavy third-party SDK wrappers, and hardened environment variable secret isolation.*
+
+### Week 2 and beyond: 
+Categories Walmart is prioritizing (with strategic use cases):
+
+Ambient Engineering – warehouse automation, AI-powered distribution, IoT-based inventory tracking
+Grocery Engineering – cold-chain robotics, computer vision inspection, perishable inventory management
+Fulfillment Engineering – micro-fulfillment robotics, grocery picking automation, in-store e-commerce fulfillment
+Climate & Energy – retail energy management, electrified fleets, next-gen refrigeration, carbon analytics
+Transportation Engineering – autonomous delivery, drone logistics, middle-mile route optimization
+U.S. In-Store Engineering – smart checkout systems, AR inventory tools, retail computer vision
+International In-Store Engineering – mobile checkout, localized omnichannel platforms, global retail SaaS
+International Engineering – shared global data platforms, cross-border supply chain tech, hybrid cloud infrastructure
+Sourcing – retail sourcing software, blockchain traceability, supplier collaboration tools
+Supply Chain Procurement – AI demand planning, procurement automation, vendor management systems
+Accelerated Compute – GPU-accelerated analytics, edge computing, HPC for real-time retail decisions
+Data Science – forecasting AI, generative retail content, computer vision, personalization engines
