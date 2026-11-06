@@ -1,11 +1,18 @@
 # SPRINT 1: Token FinOps Architecture & Unit Economics
 
+> **Read this first.** The figures below are a modeled projection, not billed usage.
+> The 99.74% reduction combines two levers. Holding the cheap model constant, the
+> naive approach would cost about **$4,400** per 10M transactions
+> (8,000 in × $0.05/M + 500 out × $0.08/M). So **token gating and minification alone save
+> about 94%** ($4,400 → $248), and choosing a smaller model accounts for the rest.
+> The gate's measured precision/recall on a labeled set is in `evals/`.
+
 ## 1. System Architecture: Two-Stage Prompt Chaining
 Instead of passing complete 60-page Master Service Agreements (MSAs) into a massive LLM context window, our microservice implements a strict programmatic filter followed by an optimized two-stage prompt chain.
 
 * **Layer 1: Programmatic Boolean Gate (Cost: $0):** Filters out text blocks that do not contain core statutory terms (e.g., "OTIF", "SLA", "Penalty").
 * **Layer 2: Extraction Stage (Model: Llama-3-8B via Groq):** Extracts raw metrics from the isolated text blocks and returns a minified, structured JSON payload.
-* **Layer 3: Risk Evaluation Stage:** Triggered only if Layer 2 detects a metric falling below Walmart's corporate risk threshold.
+* **Layer 3: Risk Evaluation Stage (deterministic rules, $0):** Flags any extracted penalty below the buyer's policy floor (default 3%).
 
 ---
 
