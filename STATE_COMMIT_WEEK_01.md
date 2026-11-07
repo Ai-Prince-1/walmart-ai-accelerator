@@ -1,3 +1,5 @@
+> **Update (Nov 2026):** Project on hold after Sprint 1. The weekly MVP cadence planned below was not continued.
+
 # STATE COMMIT: WEEK 01 SUMMARY
 
 ## 1. System Architecture & Tech Stack
@@ -15,8 +17,8 @@
 ## 3. Product Deliverables & Verification Logs
 * `sprint1_contract_prd.md` -> Target P&L: VP of Global Supply Chain Procurement. Targets: 94% Precision, 99.9% Recall.
 * `foundations/technical_deep_dive.md` -> Math & logic foundation documenting Levenshtein Distance algorithms and defensive legal keyword matrices.
-* `sprint1_demo_deck.md` -> 3-Slide executive value framework and production `EVAL_LOG.csv` mock telemetry.
-* **System Status:** 100% verified working. Checked for False Negative vulnerabilities (defensive terminology extraction) and programmatic JSON schema validation.
+* `sprint1_demo_deck.md` -> 3-slide executive value framework; `EVAL_LOG.csv` is illustrative sample output, not production telemetry.
+* **System Status (updated Nov 2026):** 15 offline tests pass; the gate was measured at 80% recall / 89% precision on a 20-clause labeled set (`evals/`). One shared keyword list now drives the gate (the earlier version had two lists that disagreed).
 
 ## 4. Up next in Backlog
 * **Week 2 Sprint:** Fulfillment & Logistics Engineering. 

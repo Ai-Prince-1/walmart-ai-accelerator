@@ -1,0 +1,22 @@
+[
+  {"id": "P01", "label": true,  "text": "Supplier shall maintain a 98% OTIF score. If OTIF falls below target for two consecutive quarters, a 3% penalty applies to non-compliant purchase orders."},
+  {"id": "P02", "label": true,  "text": "Walmart may assess a chargeback deduction of 1.5% of gross invoice value on non-compliant shipments."},
+  {"id": "P03", "label": true,  "text": "On-time delivery below 95% for any calendar month entitles Buyer to liquidated damages of 2% of the monthly order value."},
+  {"id": "P04", "label": true,  "text": "Fill-rate shortfalls are subject to an administrative fee equal to 4% of the cost of goods not delivered in-full."},
+  {"id": "P05", "label": true,  "text": "Buyer may offset against future invoices any amounts owed for shipments that miss the agreed delivery window."},
+  {"id": "P06", "label": true,  "text": "If the delivery score drops below 97.5%, Buyer may withhold payment of 2.5% until performance is restored."},
+  {"id": "P07", "label": true,  "text": "Remedies for late or incomplete shipment include a credit of 1% of the affected purchase order."},
+  {"id": "P08", "label": true,  "text": "Vendor accepts a compliance charge of 3% for each purchase order delivered late or short."},
+  {"id": "P09", "label": true,  "text": "Late deliveries will reduce the amount payable by 2% of the invoice."},
+  {"id": "P10", "label": true,  "text": "In-full delivery below 96% triggers a deduction from the next settlement equal to 2.75% of affected orders."},
+  {"id": "N01", "label": false, "text": "Force majeure events, including supply chain disruptions, shall suspend performance obligations without penalty."},
+  {"id": "N02", "label": false, "text": "This Agreement shall be governed by the laws of the State of Delaware without regard to conflict of law principles."},
+  {"id": "N03", "label": false, "text": "Neither party shall disclose proprietary information to third parties without prior written consent."},
+  {"id": "N04", "label": false, "text": "Each shipment shall include a packing list and a bill of lading."},
+  {"id": "N05", "label": false, "text": "Supplier shall pay all fees associated with obtaining required food safety certifications."},
+  {"id": "N06", "label": false, "text": "Shipment labels must follow the Buyer's routing guide; questions go to the vendor support desk."},
+  {"id": "N07", "label": false, "text": "Either party may terminate for convenience with ninety days' written notice; no damages shall be owed for such termination."},
+  {"id": "N08", "label": false, "text": "Vendor will receive a quarterly on-time performance report through the supplier portal for information only; no fee or penalty applies to this report."},
+  {"id": "N09", "label": false, "text": "Insurance certificates naming Buyer as additional insured are due within 30 days of signature."},
+  {"id": "N10", "label": false, "text": "The parties are independent contractors and nothing herein creates a partnership or joint venture."}
+]
