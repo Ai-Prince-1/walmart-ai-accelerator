@@ -6,6 +6,18 @@ An independent AI product-management portfolio built around the supply-chain pro
 
 > **Independent learning project.** Not affiliated with or endorsed by Walmart Inc. The sample contract is synthetic. Business figures are stated assumptions or projections unless marked as measured.
 
+> **Status (Nov 2026): on hold.** The plan was to ship a new MVP each week. Sprint 1 shipped and is tested; Sprints 2+ were not started and the project is paused while I focus on other work. Sprint 1 remains runnable as-is.
+
+## How it works (plain English)
+
+| Layer | What it is | In this project |
+|---|---|---|
+| **1. Input** | A contract as a plain-text file | `heavy_vendor_agreement.txt`, a synthetic 60-page supplier agreement |
+| **2. Processing** | A single Python script, no installs needed | Free keyword filter picks the pages worth reading → an AI model (Llama 3.1 8B, hosted by Groq) pulls out the penalty terms as structured data → plain code checks them against the 3% policy floor |
+| **3. Output** | A report in the terminal | Which pages were checked, what was found, and a verdict: `CRITICAL_FLAG` or `COMPLIANT_PASS` |
+
+There is no website or server; it's a command-line tool. The Groq API key is read from your environment, never stored in the repo.
+
 ## Sprint 1: Vendor contract SLA risk auditor
 
 **Problem.** Supplier contracts hide delivery-performance (OTIF) penalties inside long legal documents. A penalty set too low means the retailer under-recovers losses from late or short shipments. Reviewing every contract by hand doesn't scale.
@@ -70,8 +82,8 @@ The gate catches defensive wording like "chargeback deduction" and "offset again
 | Sprint | Focus | Status |
 |---|---|---|
 | 1 | Procurement: contract SLA risk auditor | Built, tested, gate measured |
-| 2 | Fulfillment: route optimization with live traffic and weather inputs | Planned |
-| 3 | Grocery: perishable inventory and markdown timing | Idea |
+| 2 | Fulfillment: route optimization with live traffic and weather inputs | On hold |
+| 3 | Grocery: perishable inventory and markdown timing | On hold |
 
 ## License
 

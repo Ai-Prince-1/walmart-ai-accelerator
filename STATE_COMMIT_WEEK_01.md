@@ -1,3 +1,5 @@
+> **Update (Nov 2026):** Project on hold after Sprint 1. The weekly MVP cadence planned below was not continued.
+
 # STATE COMMIT: WEEK 01 SUMMARY
 
 ## 1. System Architecture & Tech Stack
